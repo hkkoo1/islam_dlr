@@ -1,3 +1,14 @@
+# islam_dlr
+The codes of the paper The Mobile Robot Visual Navigation with Iterative Measurement Update
+
+**The bibtex of this paper is:**</br>
+@article{许亚芳2015基于迭代观测更新的移动机器人视觉导航,</br>
+  title={基于迭代观测更新的移动机器人视觉导航},</br>
+  author={许亚芳 and 孙作雷 and 曾连荪 and 张波},</br>
+  journal={信息与控制},</br>
+  year={2015}</br>
+}
+
 # About the project
 ```
 Run the script "run.m", and you can see the demo of EKF-SLAM or IEKF-SLAM on the DLR data set by setting the switches. 
@@ -9,7 +20,7 @@ Before run the script "run.m", you should set the path by hand. In the Matlab me
 
 **The following files mean :**
 ## Data
-DLR data set and the experiment data. 
+DLR data set and the experimental data. 
 * **truth.mat :** ground truth in DLR data set.
 * **relMotion.mat :** odometry in DLR data set.
 * **landmark.mat :** observations in DLR data set.
@@ -32,11 +43,3 @@ Models and tools for SLAM demo.
 * **vis.m :** for animation.
 
 **The demo shows on [youku](http://dwz.cn/iekfslam)**
-
-**The bibtex of this paper is:**</br>
-@article{许亚芳2015基于迭代观测更新的移动机器人视觉导航,</br>
-  title={基于迭代观测更新的移动机器人视觉导航},</br>
-  author={许亚芳 and 孙作雷 and 曾连荪 and 张波},</br>
-  journal={信息与控制},</br>
-  year={2015}</br>
-}
