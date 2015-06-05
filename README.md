@@ -1,26 +1,27 @@
 # islam_dlr
-The codes of the paper The Mobile Robot Visual Navigation with Iterative Measurement Update
+The codes of the paper The Mobile Robot Visual Navigation with Iterative Measurement Update.
 
-**The bibtex of this paper is:**</br>
-@article{许亚芳2015基于迭代观测更新的移动机器人视觉导航,</br>
-  title={基于迭代观测更新的移动机器人视觉导航},</br>
-  author={许亚芳 and 孙作雷 and 曾连荪 and 张波},</br>
-  journal={信息与控制},</br>
-  year={2015}</br>
+If the paper is useful for you, please cite it.
+```
+@article{许亚芳2015基于迭代观测更新的移动机器人视觉导航,
+  title =   {基于迭代观测更新的移动机器人视觉导航},
+  author =  {许亚芳 and 孙作雷 and 曾连荪 and 张波},
+  journal = {信息与控制},
+  year =    {2015}
 }
+```
 
 # About the project
-```
 Run the script "run.m", and you can see the demo of EKF-SLAM or IEKF-SLAM on the DLR data set by setting the switches. 
-Also, you can change the configuration and other switches in "run.m" to get different results. 
-```
+Also, you can change the configurations and other switches in "run.m" to get different results. 
+
 **Note:**
 
-Before run the script "run.m", you should set the path by hand. In the Matlab menu, just click Home->Set path->Add folder, and select the path of the file "IEKF and EKF SLAM on DLR data". 
+Before run the script "run.m", you should set the path by hand. In the Matlab menu, just click Home->Set path>Add folder, and select the path of the file "IEKF and EKF SLAM on DLR data". 
 
 **The following files mean :**
 ## Data
-DLR data set and the experimental data. 
+[DLR data set](http://www.informatik.uni-bremen.de/agebv/en/DlrSpatialCognitionDataSet) and experimental data.
 * **truth.mat :** ground truth in DLR data set.
 * **relMotion.mat :** odometry in DLR data set.
 * **landmark.mat :** observations in DLR data set.
